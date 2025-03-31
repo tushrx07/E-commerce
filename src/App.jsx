@@ -8,7 +8,7 @@ import Cart from "./pages/Cart"
 import { useState } from "react"
 import { ToastContainer, toast } from 'react-toastify';
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.css";;
 
 
 function App() {
