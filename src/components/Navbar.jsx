@@ -7,7 +7,7 @@ const Navbar = (props) => {
   
   return (
     <div>
-        <nav className=' z-50 fixed top-0 left-0 right-0 bg-blue-900 text-white flex justify-between items-center px-20 h-[60px]'>
+        <nav className=' z-50 sticky top-0 left-0 right-0 bg-blue-900 text-white flex justify-between items-center px-20 h-[60px]'>
             <Link className=' hover:text-red-600' to={'/'}> E-Mart </Link>
             <ul className='flex gap-9 items-center'>
               <li className=' hover:text-red-600'><Link to ="/"> Home</Link> </li>

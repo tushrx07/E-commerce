@@ -45,9 +45,9 @@ console.log(arr);
 
    <BrowserRouter>
    
-   <div className=" h-[70px]">
+   
    <Navbar arr={arr}/>
-   </div>
+ 
 
   
 
